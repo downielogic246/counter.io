@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+h1, p{
+    color: cadetblue;
+}
+
+h1{
+    letter-spacing: 3px;
+    font-size: 5em;
+    margin-top: 15%;
+}
+
+p{
+    font-size: 10em;
+}
+
+button{
+    background: none;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button:active{
+    border: solid 2px blue;
+}
+
+#buttons{
+    font-size: 4em;
+}
